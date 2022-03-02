@@ -1,0 +1,208 @@
+main {
+  min-height: 85vh;
+}
+
+#my-overlay {
+  --bs-bg-opacity: 0.2;
+  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+  color: rgba(4, 255, 58);
+}
+
+.desc {
+  font-weight: bold;
+  font-size: 20px;
+  color: #fff;
+}
+
+.fa-custom {
+  color: rgb(255, 0, 212) !important;
+}
+
+#mybtn {
+  background-color: rgb(255, 0, 212);
+  font-weight: bold;
+  border: 0;
+  border-radius: 5px;
+}
+
+.mylink {
+  color: #000;
+}
+
+a {
+  text-decoration: none !important;
+  color: #000 !important;
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  width: auto !important;
+}
+
+.sidebar {
+  height: auto;
+}
+
+.mylist {
+  list-style-type: none;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-link {
+  background-color: rgb(255, 0, 212);
+  color: #fff !important;
+  border-radius: 5px;
+  padding: 5px 40px;
+  font-weight: bold !important;
+}
+
+.btn-header {
+  background-color: rgb(255, 0, 212);
+  color: #fff !important;
+  padding: 5px 0;
+  font-weight: bold !important;
+}
+
+.btn-header2 {
+  background-color: rgb(255, 0, 212);
+  color: #fff !important;
+  padding: 10px 0;
+  font-weight: bold !important;
+  border-radius: 5px;
+}
+
+.btn-header2:hover {
+  background-color: #fff;
+  color: rgb(255, 0, 212) !important;
+  padding: 10px 0;
+  font-weight: bold !important;
+  border: 3px solid rgb(255, 0, 212);
+  border-radius: 5px;
+}
+
+.btn-header3 {
+  background-color: #fff;
+  color: rgb(255, 0, 212) !important;
+  padding: 5px 25px;
+  font-weight: bold !important;
+  border: 3px solid rgb(255, 0, 212);
+  border-radius: 7px;
+}
+
+.btn-header3:hover {
+  background-color: rgb(255, 0, 212);
+  color: #fff !important;
+  padding: 5px 25px;
+  font-weight: bold !important;
+  border: 3px solid #fff;
+  border-radius: 7px;
+}
+
+.btn-primary {
+  background-color: rgb(255, 0, 212) !important;
+  color: #fff !important;
+  font-weight: bold !important;
+  border-radius: 5px !important;
+  border: 0 !important;
+  padding: 8px 50px !important;
+  font-size: 15px !important;
+}
+
+.btn-primary:hover {
+  background-color: #fff !important;
+  color: rgb(255, 0, 212) !important;
+  font-weight: bold !important;
+  border: 2px solid rgb(255, 0, 212) !important;
+  border-radius: 5px;
+  font-size: 15px !important;
+}
+
+.selected {
+  border: 5px solid rgb(255, 0, 212) !important;
+  border-radius: 10px !important;
+}
+
+.marked {
+  background-color: transparent !important;
+  color: rgb(255, 0, 212) !important;
+  padding: 20%;
+}
+
+@media only screen and (max-width: 767px) {
+  .mylistitems {
+    padding: 30px;
+  }
+  .mylist {
+    display: flex;
+  }
+  .mysidebar {
+    position: fixed !important;
+    bottom: 0;
+    z-index: 1;
+    left: 0;
+    right: 0;
+  }
+  .wrapper {
+    margin-bottom: 90px !important;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .mysidebar {
+    position: -webkit-sticky;
+    position: sticky !important;
+    top: 120px;
+    height: 100px;
+  }
+  .action-card {
+    position: -webkit-sticky;
+    position: sticky !important;
+    top: 120px;
+    height: 100px;
+  }
+}
+
+.card-header {
+  background-color: #fff !important;
+}
+
+.img-small {
+  border-radius: 20px;
+}
+
+.text-small {
+  text-align: left;
+}
+
+.red {
+  background-color: red !important;
+}
+
+.nav-link {
+  font-weight: bold;
+}
+
+.breadcrumb,
+.nav,
+.pagination {
+  font-size: 0.9625rem;
+}
+
+.step-done {
+  color: rgb(255, 0, 212) !important;
+}
+
+.mylist {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.delete {
+  color: red !important;
+}
