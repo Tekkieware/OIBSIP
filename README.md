@@ -29,6 +29,7 @@ For my web designing and development internship at Oasis infobyte
 7. Admin receives the order and change the status of the pizza- as order received, In the kitchen, and Sent to delivery.
 
 8. For every update from the admin, the status change is reflected in the user dashboard.
+--
 
 
 
